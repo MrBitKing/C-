@@ -1,0 +1,151 @@
+#define _CRT_SECURE_NO_WARNINGS
+#define _CRTDBG_MAP_ALLOC  
+#include <crtdbg.h> 
+#include "Frame.h"
+#include <time.h>
+#include<stdio.h>
+#include <iostream>
+
+#include <stdlib.h>
+#include <string.h>
+#include<cassert>
+#include "Animation.h"
+
+using namespace std;
+#define _CRT_SECURE_NO_WARNINGS
+
+Animation::Animation(char*) {
+
+	numFrames = 0;
+	frames = NULL;
+	animationName = NULL;
+}
+Animation::~Animation()
+{
+	if (numFrames != 0) {
+		cout << "Delete all Frame(s) in the Animation \n" << endl;
+		for (unsigned int i = 0; i < numFrames; i++) {
+			frames[i]->~Frame();
+			frames[i] = NULL;
+		}
+		delete frames;
+	}
+	else if (numFrames == 0) {
+		cout << "No Frames to delete \n" << endl;
+	}
+	numFrames = 0;
+	frames = NULL;
+	animationName = NULL;
+	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+}
+
+void Animation::InsertFrame()
+{
+	if (numFrames == 0) {
+		//frames = new Frame*[BLOCK_SIZE*sizeof(Frame*)]; //Animation starts with the number of frames to 64 
+		frames = new Frame*[BLOCK_SIZE]; //Animation starts with the number of frames to 64 
+
+	}
+
+	//Increment animation capacity when full of frames.
+	else if (numFrames % BLOCK_SIZE == 0) {
+		//frames = new Frame*[sizeof(Frame)*(BLOCK_SIZE + numFrames)];
+		frames = new Frame*[BLOCK_SIZE + numFrames];
+
+	}
+	printf("Insert a Frame In the Animation\n");
+	printf("Enter the Frame filename: ");
+
+	animationName = new char[512];
+
+	unsigned int i = 0;
+	scanf("%s", animationName);
+
+	//loops trough all frames in animation, print a error and exit if the frame to be added will result in a duplicate 
+	while (i < numFrames) {
+	//	printf("this Frame %s\n", *(this->frames[i]));
+		if (frames[i++]->FindFileName(animationName)) {
+			fprintf(stderr, "File already in!\n");
+			return;
+		}
+	}
+	//Allocated memory for the frame the for the filename of the frame
+
+	frames[numFrames] = new Frame(animationName);
+
+	//Add filename  frame to animation if not a duplicate and increment index
+	frames[numFrames++]->ReplaceFrameName(animationName);
+	int blockcount = (numFrames / BLOCK_SIZE) + 1; //Keeps track of the number of blocks
+	printf("Number of blocks = %d\n", blockcount);
+
+	//	delete []animationName;
+}
+
+void Animation::EditFrame()
+{
+	printf("Enter the Frame filename to edit ");
+
+	animationName = new char[512];
+	char *newName = new char[512];
+
+	scanf("%s", animationName);
+	bool found = false;
+	unsigned int i = 0;
+
+	while (i < numFrames) {
+		//printf("this Frame %s\n", *(this->frames[i]));
+		printf("animationName = %s\n", animationName);
+
+		if (frames[i]->FindFileName(animationName)) {
+
+			printf("What is the replacement name ?  ");
+			scanf("%s", newName);
+
+			frames[i]->ReplaceFrameName(newName);
+			found = true;
+		}
+		else if (++i == numFrames && !found) {
+			fprintf(stderr, "File name not found !\n");
+			return;
+		}
+	}
+}
+
+void Animation::DeleteFrames()
+{
+	Animation::~Animation();
+}
+
+void Animation::RunFrames()
+{
+	unsigned int counter = 0;
+	time_t startsec, oldsec, newsec;
+
+	if (numFrames == 0)
+	{
+		printf("No frames in the animation\n");
+		return;
+	}
+
+	printf("Run the Animation\n");
+	startsec = oldsec = time(NULL);
+
+	while (counter < (numFrames))
+	{
+		newsec = time(NULL);
+		if (newsec > oldsec)
+		{
+
+
+			_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+
+
+			printf("Frame #%d, time = %I64d sec\n", counter, newsec - startsec);
+			//		printf("Image file name = %s\n", (frames[counter])); big mistake
+			printf("Image file name = %s\n", frames[counter++]->Report());
+		
+			oldsec = newsec;
+		}
+	}
+}
+

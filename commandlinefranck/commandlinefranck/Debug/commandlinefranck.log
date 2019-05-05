@@ -1,0 +1,25 @@
+﻿  parse.c
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\parse.c(7): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+  main.c
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1): warning C4001: nonstandard extension 'single line comment' was used
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\main.c(26): warning C4013: 'time' undefined; assuming extern returning int
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\main.c(36): warning C4090: '=': different 'const' qualifiers
+  deck.c
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1): warning C4001: nonstandard extension 'single line comment' was used
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(16): warning C4047: 'initializing': 'void (*)(Card *,int,int)' differs in levels of indirection from 'void *(*)(Card *,int,int)'
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(21): warning C4100: 'pGame': unreferenced formal parameter
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(64): warning C4100: 'nRanks': unreferenced formal parameter
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(75): warning C4100: 'nRanks': unreferenced formal parameter
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(75): warning C4100: 'nCards': unreferenced formal parameter
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(75): warning C4100: 'cards': unreferenced formal parameter
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(91): warning C4133: 'function': incompatible types - from 'Card *' to 'Game *'
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(158): warning C4477: 'printf' : format string '%08lx' requires an argument of type 'unsigned long', but variadic argument 1 has type 'Hand *'
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(159): warning C4477: 'printf' : format string '%08lx' requires an argument of type 'unsigned long', but variadic argument 2 has type 'Card *'
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(161): warning C4019: empty statement at global scope
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(169): warning C4477: 'printf' : format string '%08lx' requires an argument of type 'unsigned long', but variadic argument 1 has type 'Game *'
+  Generating Code...
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(45): warning C4716: 'shuffleCards': must return a value
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(62): warning C4716: 'sortCards_byRank': must return a value
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(78): warning C4716: 'sortCards_noSort': must return a value
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(73): warning C4716: 'sortCards_bySuit': must return a value
+c:\users\franck\downloads\nana0006_l6\nana0006_l6\deck.c(106): warning C4716: 'initializeGame': must return a value

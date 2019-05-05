@@ -1,0 +1,6 @@
+﻿  Ass0.c
+c:\users\franck\desktop\c++\assignments\assignment0\assignment0\ass0.c(17): warning C4001: nonstandard extension 'single line comment' was used
+c:\users\franck\desktop\c++\assignments\assignment0\assignment0\ass0.c(78): error C2065: 'cin': undeclared identifier
+c:\users\franck\desktop\c++\assignments\assignment0\assignment0\ass0.c(78): error C2224: left of '.ignore' must have struct/union type
+c:\users\franck\desktop\c++\assignments\assignment0\assignment0\ass0.c(112): warning C4775: nonstandard extension used in format string '%I64d' of function 'printf'
+  c:\users\franck\desktop\c++\assignments\assignment0\assignment0\ass0.c(112): note: the combination of length modifier 'I64' with type field character 'd' is non standard

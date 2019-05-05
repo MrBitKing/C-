@@ -1,0 +1,136 @@
+﻿  Frame.cpp
+c:\users\franck\desktop\c++\assignments\ass\ass\display.h(26): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\franck\desktop\c++\assignments\ass\ass\display.h(34): error C2011: 'Display': 'class' type redefinition
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(6): note: see declaration of 'Display'
+c:\users\franck\desktop\c++\assignments\ass\ass\frame.h(5): error C2011: 'Frame': 'class' type redefinition
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\frame.cpp(12): error C2027: use of undefined type 'Frame'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\frame.cpp(16): error C2065: 'displays': undeclared identifier
+c:\users\franck\desktop\c++\assignments\ass\ass\frame.cpp(16): error C2228: left of '.size' must have class/struct/union
+  c:\users\franck\desktop\c++\assignments\ass\ass\frame.cpp(16): note: type is 'unknown-type'
+c:\users\franck\desktop\c++\assignments\ass\ass\frame.cpp(21): error C2065: 'displays': undeclared identifier
+c:\users\franck\desktop\c++\assignments\ass\ass\frame.cpp(27): error C2027: use of undefined type 'Frame'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\frame.cpp(27): error C2228: left of '.GetFrameName' must have class/struct/union
+  Display.cpp
+c:\users\franck\desktop\c++\assignments\ass\ass\display.h(21): error C2143: syntax error: missing ';' before '<'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\franck\desktop\c++\assignments\ass\ass\display.h(21): error C2238: unexpected token(s) preceding ';'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.h(23): error C2061: syntax error: identifier 'vector'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.h(23): error C2065: 'd': undeclared identifier
+c:\users\franck\desktop\c++\assignments\ass\ass\display.h(23): error C2614: 'Frame': illegal member initialization: 'displays' is not a base or member
+c:\users\franck\desktop\c++\assignments\ass\ass\display.h(26): error C2065: 'displays': undeclared identifier
+c:\users\franck\desktop\c++\assignments\ass\ass\display.h(26): error C2228: left of '.size' must have class/struct/union
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(26): note: type is 'unknown-type'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.h(34): error C2011: 'Display': 'class' type redefinition
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(6): note: see declaration of 'Display'
+c:\users\franck\desktop\c++\assignments\ass\ass\frame.h(5): error C2011: 'Frame': 'class' type redefinition
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(12): error C2027: use of undefined type 'Display'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(6): note: see declaration of 'Display'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(12): error C2062: type 'char' unexpected
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(13): error C2143: syntax error: missing ';' before '{'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(13): error C2447: '{': missing function header (old-style formal list?)
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(18): error C2027: use of undefined type 'Display'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(6): note: see declaration of 'Display'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(18): error C2059: syntax error: 'const'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(19): error C2143: syntax error: missing ';' before '{'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(19): error C2447: '{': missing function header (old-style formal list?)
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(24): error C2027: use of undefined type 'Display'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(6): note: see declaration of 'Display'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(30): error C2027: use of undefined type 'Display'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(6): note: see declaration of 'Display'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(30): error C2228: left of '.resolution' must have class/struct/union
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(30): error C2065: 'resolution': undeclared identifier
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(31): error C2065: 'resolution': undeclared identifier
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(31): error C2541: 'delete': cannot delete objects that are not pointers
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(32): error C2065: 'resolution': undeclared identifier
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(33): error C2065: 'resolution': undeclared identifier
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(33): error C2027: use of undefined type 'Display'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(6): note: see declaration of 'Display'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(33): error C2228: left of '.resolution' must have class/struct/union
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(33): error C3078: array size must be specified in new expressions
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(35): error C2065: 'resolution': undeclared identifier
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(35): error C2027: use of undefined type 'Display'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(6): note: see declaration of 'Display'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(35): error C2228: left of '.resolution' must have class/struct/union
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(36): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(40): error C2027: use of undefined type 'Display'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(6): note: see declaration of 'Display'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(40): error C2059: syntax error: ')'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(41): error C2143: syntax error: missing ';' before '{'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(41): error C2447: '{': missing function header (old-style formal list?)
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(50): error C2027: use of undefined type 'Display'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(6): note: see declaration of 'Display'
+c:\users\franck\desktop\c++\assignments\ass\ass\display.cpp(50): error C2228: left of '.resolution' must have class/struct/union
+  Ass2.cpp
+c:\users\franck\desktop\c++\assignments\ass\ass\display.h(26): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\franck\desktop\c++\assignments\ass\ass\display.h(34): error C2011: 'Display': 'class' type redefinition
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(6): note: see declaration of 'Display'
+c:\users\franck\desktop\c++\assignments\ass\ass\frame.h(5): error C2011: 'Frame': 'class' type redefinition
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+  Animation.cpp
+c:\users\franck\desktop\c++\assignments\ass\ass\display.h(26): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\franck\desktop\c++\assignments\ass\ass\display.h(34): error C2011: 'Display': 'class' type redefinition
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(6): note: see declaration of 'Display'
+c:\users\franck\desktop\c++\assignments\ass\ass\frame.h(5): error C2011: 'Frame': 'class' type redefinition
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(39): error C2027: use of undefined type 'Frame'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(39): error C2227: left of '->GetFrameName' must point to class/struct/union/generic type
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(39): error C2228: left of '.compare' must have class/struct/union
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(61): error C2079: 'display' uses undefined class 'Display'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(61): error C2440: 'initializing': cannot convert from 'char [256]' to 'int'
+  c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(61): note: There is no context in which this conversion is possible
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(62): error C2664: 'void std::vector<Display,std::allocator<_Ty>>::push_back(const Display &)': cannot convert argument 1 from 'int' to 'Display &&'
+          with
+          [
+              _Ty=Display
+          ]
+  c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(62): note: Reason: cannot convert from 'int' to 'Display'
+  c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(62): note: Source or target has incomplete type
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(66): error C2027: use of undefined type 'Frame'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(84): error C2027: use of undefined type 'Frame'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(84): error C2227: left of '->GetFrameName' must point to class/struct/union/generic type
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(84): error C2228: left of '.compare' must have class/struct/union
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(102): error C2027: use of undefined type 'Frame'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(102): error C2227: left of '->GetFrameName' must point to class/struct/union/generic type
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(102): error C2228: left of '.compare' must have class/struct/union
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(109): error C2027: use of undefined type 'Frame'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(109): error C2227: left of '->GetFrameName' must point to class/struct/union/generic type
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(114): error C2027: use of undefined type 'Frame'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(114): error C2227: left of '->size' must point to class/struct/union/generic type
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(120): error C2027: use of undefined type 'Frame'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(120): error C2227: left of '->size' must point to class/struct/union/generic type
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(121): error C2027: use of undefined type 'Frame'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(121): error C2227: left of '->size' must point to class/struct/union/generic type
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(127): error C2079: 'display' uses undefined class 'Display'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(127): error C2440: 'initializing': cannot convert from 'char [256]' to 'int'
+  c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(127): note: There is no context in which this conversion is possible
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(128): error C2027: use of undefined type 'Frame'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(128): error C2227: left of '->[]' must point to class/struct/union/generic type
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(135): error C2027: use of undefined type 'Frame'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(135): error C2227: left of '->GetFrameName' must point to class/struct/union/generic type
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(135): error C2228: left of '.compare' must have class/struct/union
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(153): warning C4150: deletion of pointer to incomplete type 'Frame'; no destructor called
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(180): error C2027: use of undefined type 'Frame'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(180): error C2227: left of '->GetFrameName' must point to class/struct/union/generic type
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(184): error C2027: use of undefined type 'Frame'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(184): error C2227: left of '->size' must point to class/struct/union/generic type
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(185): error C2027: use of undefined type 'Frame'
+  c:\users\franck\desktop\c++\assignments\ass\ass\display.h(19): note: see declaration of 'Frame'
+c:\users\franck\desktop\c++\assignments\ass\ass\animation.cpp(185): error C2227: left of '->[]' must point to class/struct/union/generic type
+  Generating Code...

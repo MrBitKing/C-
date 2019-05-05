@@ -1,0 +1,18 @@
+﻿  C.cpp
+c:\users\franck\desktop\c++\assignments\inheritance1\inheritance1\c.cpp(9): error C2504: 'B': base class undefined
+c:\users\franck\desktop\c++\assignments\inheritance1\inheritance1\c.cpp(10): error C3646: 'a': unknown override specifier
+c:\users\franck\desktop\c++\assignments\inheritance1\inheritance1\c.cpp(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\franck\desktop\c++\assignments\inheritance1\inheritance1\c.cpp(13): error C2614: 'C': illegal member initialization: 'B' is not a base or member
+c:\users\franck\desktop\c++\assignments\inheritance1\inheritance1\c.cpp(13): error C2614: 'C': illegal member initialization: 'a' is not a base or member
+c:\users\franck\desktop\c++\assignments\inheritance1\inheritance1\c.cpp(17): error C2065: 'a': undeclared identifier
+c:\users\franck\desktop\c++\assignments\inheritance1\inheritance1\c.cpp(17): error C2039: 'a': is not a member of 'C'
+  c:\users\franck\desktop\c++\assignments\inheritance1\inheritance1\c.cpp(9): note: see declaration of 'C'
+c:\users\franck\desktop\c++\assignments\inheritance1\inheritance1\c.cpp(28): error C2065: 'a': undeclared identifier
+c:\users\franck\desktop\c++\assignments\inheritance1\inheritance1\c.cpp(28): error C2228: left of '.f' must have class/struct/union
+  c:\users\franck\desktop\c++\assignments\inheritance1\inheritance1\c.cpp(28): note: type is 'unknown-type'
+c:\users\franck\desktop\c++\assignments\inheritance1\inheritance1\c.cpp(29): error C2653: 'B': is not a class or namespace name
+c:\users\franck\desktop\c++\assignments\inheritance1\inheritance1\c.cpp(30): error C2039: 'f': is not a member of '`global namespace''
+  B.cpp
+  A.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
